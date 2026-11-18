@@ -76,24 +76,12 @@ figcaption h3 { color: var(--fg); }
     </ul>
   </div>
 
-  <div class="question">
-    <h2>Decision 1: friends who join monthly</h2>
-    <p>A friend who joins <b>monthly</b> can only get $29.99 off, because that's the whole first month. The card promises $50. Which should we do?</p>
-    <ol>
-      <li>Reword the card: "$50 off a yearly membership, or their first month."</li>
-      <li>Offer the friend discount on yearly memberships only.</li>
-      <li>Give monthly friends the full $50, spread over their first two bills.</li>
-    </ol>
-  </div>
-
-  <div class="question">
-    <h2>Decision 2: lifetime members' credit</h2>
-    <p>Lifetime members have nothing that renews, so their $50 can't come off a bill. It now goes on their account as a balance, and their card says "You have $50 in referral credit on your account." Today there's nothing to spend it on. What should it pay for?</p>
-    <ol>
-      <li>Store purchases: pedals and accessories.</li>
-      <li>A gift membership for a friend.</li>
-      <li>Something else.</li>
-    </ol>
+  <div class="question approved">
+    <h2>Decided</h2>
+    <ul>
+      <li><b>Friends who join monthly get the full $50.</b> Their first month is free, and the remaining $20.01 comes off their next bill.</li>
+      <li><b>Lifetime members spend their credit when they upgrade.</b> Lifetime members have nothing that renews, so the $50 waits on their account and comes off at checkout when they upgrade to a Teleport membership.</li>
+    </ul>
   </div>
 
   <section>
@@ -143,6 +131,26 @@ figcaption h3 { color: var(--fg); }
       <img src="img/web-join-no-cookie-1280.png" alt="Desktop checkout without a referral link">
       <figcaption><h3>Without a link, for comparison</h3>Unchanged: $359 a year.</figcaption>
     </figure>
+  </section>
+
+  <section>
+    <span class="tag">Website</span>
+    <h2>The two decisions, on screen</h2>
+    <p class="note">Phone width. Taken on a test site.</p>
+    <div class="states">
+      <figure>
+        <img src="img/web-join-monthly-after-r-link-390-order-card.png" alt="Monthly checkout: friend discount −$29.99, total $0 first month, $20.01 more off the next bill">
+        <figcaption><h3>Friend joins monthly</h3>$0 first month, then $20.01 off the next bill.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/web-card-lifetime-credit-390.png" alt="Lifetime member's referral card showing $50 in referral credit for the upgrade">
+        <figcaption><h3>Lifetime member's card</h3>Their $50 waits for the upgrade.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/web-join-lifetime-credit-pro-390-order-card.png" alt="Upgrade checkout with referral credit −$50 and a $309 total">
+        <figcaption><h3>Lifetime member upgrades</h3>Referral credit −$50, total $309 for the first year.</figcaption>
+      </figure>
+    </div>
   </section>
 
   <section class="app">
